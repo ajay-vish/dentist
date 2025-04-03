@@ -23,7 +23,7 @@ import {
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Calendar } from "@/components/ui/calendar";
 import { CalendarIcon, Clock } from 'lucide-react';
-import { format, setHours, setMinutes, parseISO } from 'date-fns';
+import { format, setHours, setMinutes, parseISO, parse } from 'date-fns';
 import { cn } from "@/lib/utils";
 import { DialogFooter, DialogClose } from "@/components/ui/dialog"; // Import Dialog parts for buttons
 
